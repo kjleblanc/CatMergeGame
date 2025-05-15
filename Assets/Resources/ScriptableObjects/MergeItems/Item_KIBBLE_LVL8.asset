@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a240ba3b18e2948a694e9399f579c6, type: 3}
+  m_Name: Item_KIBBLE_LVL8
+  m_EditorClassIdentifier: 
+  displayName: 
+  displayIcon: {fileID: -3232167543041631573, guid: a4f8dd685bcf7644db5a769f3eb3912c, type: 3}
+  description: 
+  prefab: {fileID: 5191727252723473674, guid: d815175c88073e64d858b3d993eeb01c, type: 3}
+  visualScaleMultiplier: 1
+  level: 8
+  itemAnimatorController: {fileID: 0}
+  nextLevelItem: {fileID: 11400000, guid: 7d479c390dc34e343aed4bc772d47f16, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57a3fd1e6dfa844f917eb753683aa6d, type: 3}
+  m_Name: Spawner_CATFOODBAG_LVL1
+  m_EditorClassIdentifier: 
+  displayName: Cat Food Bag
+  displayIcon: {fileID: -5845368486615084090, guid: bdbb1fc19a0564142a585097538242f6, type: 3}
+  description: A simple bag of cat food.
+  prefab: {fileID: 8140323932602587915, guid: 3efa947fbe7883947818a8bbec3790b5, type: 3}
+  visualScaleMultiplier: 1
+  possibleSpawns:
+  - itemData: {fileID: 11400000, guid: c7c1a7c4e8c5bb7428e8de8319e65339, type: 2}
+    spawnChancePercentage: 70
+  - itemData: {fileID: 11400000, guid: 45d0d1a440fcd7c4f8bc790b2634c0a3, type: 2}
+    spawnChancePercentage: 0
+  maxSpawnsBeforeCooldown: 100
+  cooldownDuration: 0
