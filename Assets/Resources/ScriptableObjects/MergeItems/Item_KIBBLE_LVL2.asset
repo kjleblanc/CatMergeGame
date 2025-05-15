@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a240ba3b18e2948a694e9399f579c6, type: 3}
+  m_Name: Item_KIBBLE_LVL2
+  m_EditorClassIdentifier: 
+  displayName: A Few Kibble
+  displayIcon: {fileID: 1747090129371062418, guid: 703b12393e7d55c4390700f8c6b4f870, type: 3}
+  description: 
+  prefab: {fileID: 5191727252723473674, guid: d815175c88073e64d858b3d993eeb01c, type: 3}
+  visualScaleMultiplier: 0.7
+  level: 2
+  itemAnimatorController: {fileID: 0}
+  nextLevelItem: {fileID: 11400000, guid: dbb8c3fb058afff41aa0f84243be5df2, type: 2}
